@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 Let me introduce myself, my name is Kevin Frederick Yapiter.
-- 🔭 I’m a student at Mikroskil University
+- 🏫 I’m a student at Mikroskil University
 <!--
 **KevinFrederick/KevinFrederick** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
