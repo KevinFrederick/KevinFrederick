@@ -1,25 +1,49 @@
-### Hi there 👋
+## 👋 Hi there, I'm Kevin Frederick Yapiter
 
-Let me introduce myself, my name is Kevin Frederick Yapiter.
-- 🏫 I’m a student at Mikroskil University
-<!--
-**KevinFrederick/KevinFrederick** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### **Android Developer | Kotlin • Jetpack Compose • Clean Architecture**
 
-Here are some ideas to get you started:
+Detail-oriented Computer Science graduate and **Bangkit Academy Distinction Graduate** specializing in modern Native Android development. Passionate about building scalable, maintainable mobile applications using **Clean Architecture**, **Multi-Module design**, and **offline-first** data patterns.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
 
-<p align="left">
-<a href="https://github.com/KevinFrederick">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KevinFrederick&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <!--<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KevinFrederick&layout=compact&langs_count=8&theme=algolia"/>-->
-</a>
-</p>
+### 🛠️ **Tech Stack & Tools**
+
+| **Category** | **Technologies & Tools** |
+| :--- | :--- |
+| **Languages** | Kotlin, Python, SQL |
+| **Android UI & Framework** | Jetpack Compose, Material 3, ViewModel, Navigation, Vico Charts |
+| **Architecture & Patterns** | Clean Architecture, Multi-Module (Feature/Layer-based), MVVM, Offline-First |
+| **Async & Dependency Injection** | Kotlin Coroutines, Flow, Dagger Hilt |
+| **Data & Storage** | Room Database, Firebase DataStore, Retrofit, REST APIs |
+| **Backend & Infrastructure** | Ktor Framework, PostgreSQL, MinIO Object Storage, Docker, Docker Compose, Cloudflare Tunnels |
+| **DevOps, Testing & Tools** | GitHub Actions, Git, Android Studio, JUnit |
+
+---
+
+### 📌 **Featured Projects**
+
+#### 📦 [Full-Stack Inventory System](https://github.com/KevinFrederick) *(In Active Development)*
+*( [Android Client](https://github.com/KevinFrederick/Inventory) | [Ktor Backend](https://github.com/KevinFrederick/Inventory-Backend) )*
+> *An end-to-end, multi-module inventory ecosystem featuring a native Android client and a custom Ktor backend.*
+
+* **Android Client (`Inventory`):**
+  * Built using **Jetpack Compose** and **Clean Architecture** split across core modules (`:core:database`, `:core:network`, `:core:ui`).
+  * Integrated **CameraX** for hardware barcode scanning, **Room Database** for local caching, and **WorkManager** (`SyncWorker`) for background synchronization.
+  * Continuous integration via **GitHub Actions** (`android-ci.yml`).
+
+* **Ktor Backend Service (`Inventory-Backend`):**
+  * Modular backend powered by **Ktor Framework** and **PostgreSQL**.
+  * Integrated **MinIO Object Storage** for secure image upload pipelines (`MinioImageStorageService`).
+  * Real-time bidirectional data synchronization using **WebSockets** (`SyncSocketManager`) and containerized with **Docker & Docker Compose**.
+  * Automated testing and build pipelines via **GitHub Actions** (`backend-ci.yml`).
+
+#### 📱 [Multi-Currency Expense Tracker](https://github.com/KevinFrederick/Spending)
+> *A serverless personal finance Android application with multi-currency tracking.*
+* **Tech Stack:** Kotlin, Jetpack Compose, Clean Architecture (`:app`, `:domain`, `:data`), Firebase Auth, Room, Retrofit, Dagger Hilt, Coroutines, Flow.
+* **Key Features:** Layer-based modularization, date-specific exchange rate caching to reduce API overhead, reactive UI state management, and financial visualization with Vico charts.
+
+--- 
+
+### 📫 **Connect With Me**
+* 💼 **LinkedIn:** [linkedin.com/in/kevin-frederick-yapiter](https://www.linkedin.com/in/kevin-frederick-yapiter/)
+* 📧 **Email:** [Kevin55622@gmail.com](mailto:kevin55622@gmail.com)
